@@ -1,2 +1,4 @@
+#install package
 install.packages("MASS")
+#use package
 library("MASS")
