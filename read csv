@@ -1,0 +1,1 @@
+read.csv(url("https://raw.githubusercontent.com/HimesGroup/BMIN503/master/DataFiles/titanic3.csv"), header=TRUE)
