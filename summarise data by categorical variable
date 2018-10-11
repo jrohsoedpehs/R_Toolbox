@@ -1,0 +1,6 @@
+
+library("nycflights13")
+
+#provides counts by carrier
+by_carrier <- group_by(flights, carrier)
+summarise(by_carrier, count=n())
